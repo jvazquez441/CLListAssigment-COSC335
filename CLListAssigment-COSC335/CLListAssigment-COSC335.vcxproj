@@ -123,6 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="circDLList.h" />
+    <ClInclude Include="circDLLNode.h" />
+    <ClInclude Include="intDLLNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="circularDblLinkedList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
